@@ -1,0 +1,204 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+.DEFAULT_GOAL	Makefile	/^.DEFAULT_GOAL := sample$/;"	m
+Android	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int[] Android = {$/;"	f	class:R.styleable
+Android_android_textColor	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Android_android_textColor = 3;$/;"	f	class:R.styleable
+Android_android_textColorHighlight	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Android_android_textColorHighlight = 4;$/;"	f	class:R.styleable
+Android_android_textColorHint	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Android_android_textColorHint = 5;$/;"	f	class:R.styleable
+Android_android_textColorLink	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Android_android_textColorLink = 6;$/;"	f	class:R.styleable
+Android_android_textSize	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Android_android_textSize = 0;$/;"	f	class:R.styleable
+Android_android_textStyle	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Android_android_textStyle = 2;$/;"	f	class:R.styleable
+Android_android_typeface	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Android_android_typeface = 1;$/;"	f	class:R.styleable
+BuildConfig	gen/org/jraf/android/backport/switchwidget/BuildConfig.java	/^public final class BuildConfig {$/;"	c
+CHECKED_STATE_SET	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private static final int[] CHECKED_STATE_SET = { android.R.attr.state_checked };$/;"	f	class:Switch	file:
+CREATOR	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^        public static final Parcelable.Creator<SavedState> CREATOR =$/;"	f	class:TwoStatePreference.SavedState
+DEBUG	gen/org/jraf/android/backport/switchwidget/BuildConfig.java	/^    public final static boolean DEBUG = true;$/;"	f	class:BuildConfig
+Listener	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^	private class Listener implements CompoundButton.OnCheckedChangeListener {$/;"	c	class:SwitchPreference
+MONOSPACE	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private static final int MONOSPACE = 3;$/;"	f	class:Switch	file:
+Preference_SwitchPreference	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int Preference_SwitchPreference=0x7f060002;$/;"	f	class:R.style
+R	gen/org/jraf/android/backport/switchwidget/R.java	/^public final class R {$/;"	c
+SANS	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private static final int SANS = 1;$/;"	f	class:Switch	file:
+SERIF	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private static final int SERIF = 2;$/;"	f	class:Switch	file:
+SavedState	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^        public SavedState(Parcel source) {$/;"	m	class:TwoStatePreference.SavedState
+SavedState	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^        public SavedState(Parcelable superState) {$/;"	m	class:TwoStatePreference.SavedState
+SavedState	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    static class SavedState extends BaseSavedState {$/;"	c	class:TwoStatePreference
+Switch	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int[] Switch = {$/;"	f	class:R.styleable
+Switch	src/org/jraf/android/backport/switchwidget/Switch.java	/^    public Switch(Context context) {$/;"	m	class:Switch
+Switch	src/org/jraf/android/backport/switchwidget/Switch.java	/^    public Switch(Context context, AttributeSet attrs) {$/;"	m	class:Switch
+Switch	src/org/jraf/android/backport/switchwidget/Switch.java	/^    public Switch(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:Switch
+Switch	src/org/jraf/android/backport/switchwidget/Switch.java	/^public class Switch extends CompoundButton {$/;"	c
+SwitchPreference	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int[] SwitchPreference = {$/;"	f	class:R.styleable
+SwitchPreference	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^	public SwitchPreference(Context context) {$/;"	m	class:SwitchPreference
+SwitchPreference	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^	public SwitchPreference(Context context, AttributeSet attrs) {$/;"	m	class:SwitchPreference
+SwitchPreference	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^	public SwitchPreference(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:SwitchPreference
+SwitchPreference	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^public class SwitchPreference extends TwoStatePreference {$/;"	c
+SwitchPreference_disableDependentsState	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int SwitchPreference_disableDependentsState = 4;$/;"	f	class:R.styleable
+SwitchPreference_summaryOff	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int SwitchPreference_summaryOff = 1;$/;"	f	class:R.styleable
+SwitchPreference_summaryOn	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int SwitchPreference_summaryOn = 0;$/;"	f	class:R.styleable
+SwitchPreference_switchTextOff	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int SwitchPreference_switchTextOff = 3;$/;"	f	class:R.styleable
+SwitchPreference_switchTextOn	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int SwitchPreference_switchTextOn = 2;$/;"	f	class:R.styleable
+Switch_switchMinWidth	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Switch_switchMinWidth = 6;$/;"	f	class:R.styleable
+Switch_switchPadding	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Switch_switchPadding = 7;$/;"	f	class:R.styleable
+Switch_switchTextAppearance	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Switch_switchTextAppearance = 5;$/;"	f	class:R.styleable
+Switch_textOff	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Switch_textOff = 3;$/;"	f	class:R.styleable
+Switch_textOn	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Switch_textOn = 2;$/;"	f	class:R.styleable
+Switch_thumb	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Switch_thumb = 0;$/;"	f	class:R.styleable
+Switch_thumbTextPadding	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Switch_thumbTextPadding = 4;$/;"	f	class:R.styleable
+Switch_track	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Switch_track = 1;$/;"	f	class:R.styleable
+TOUCH_MODE_DOWN	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private static final int TOUCH_MODE_DOWN = 1;$/;"	f	class:Switch	file:
+TOUCH_MODE_DRAGGING	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private static final int TOUCH_MODE_DRAGGING = 2;$/;"	f	class:Switch	file:
+TOUCH_MODE_IDLE	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private static final int TOUCH_MODE_IDLE = 0;$/;"	f	class:Switch	file:
+Theme	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int[] Theme = {$/;"	f	class:R.styleable
+Theme_switchPreferenceStyle	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Theme_switchPreferenceStyle = 1;$/;"	f	class:R.styleable
+Theme_switchStyle	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static final int Theme_switchStyle = 0;$/;"	f	class:R.styleable
+TwoStatePreference	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    public TwoStatePreference(Context context) {$/;"	m	class:TwoStatePreference
+TwoStatePreference	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    public TwoStatePreference(Context context, AttributeSet attrs) {$/;"	m	class:TwoStatePreference
+TwoStatePreference	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    public TwoStatePreference(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:TwoStatePreference
+TwoStatePreference	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^public abstract class TwoStatePreference extends Preference {$/;"	c
+Widget_Holo_CompoundButton_Switch	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int Widget_Holo_CompoundButton_Switch=0x7f060000;$/;"	f	class:R.style
+Widget_Holo_Light_CompoundButton_Switch	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int Widget_Holo_Light_CompoundButton_Switch=0x7f060001;$/;"	f	class:R.style
+animateThumbToCheckedState	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private void animateThumbToCheckedState(boolean newCheckedState) {$/;"	m	class:Switch	file:
+attr	gen/org/jraf/android/backport/switchwidget/R.java	/^    public static final class attr {$/;"	c	class:R
+cancelSuperTouch	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private void cancelSuperTouch(MotionEvent ev) {$/;"	m	class:Switch	file:
+checked	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^        boolean checked;$/;"	f	class:TwoStatePreference.SavedState
+dimen	gen/org/jraf/android/backport/switchwidget/R.java	/^    public static final class dimen {$/;"	c	class:R
+disableDependentsState	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int disableDependentsState=0x7f010004;$/;"	f	class:R.attr
+drawable	gen/org/jraf/android/backport/switchwidget/R.java	/^    public static final class drawable {$/;"	c	class:R
+drawableStateChanged	src/org/jraf/android/backport/switchwidget/Switch.java	/^    protected void drawableStateChanged() {$/;"	m	class:Switch
+getCompoundPaddingRight	src/org/jraf/android/backport/switchwidget/Switch.java	/^    public int getCompoundPaddingRight() {$/;"	m	class:Switch
+getDisableDependentsState	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    public boolean getDisableDependentsState() {$/;"	m	class:TwoStatePreference
+getSummaryOff	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    public CharSequence getSummaryOff() {$/;"	m	class:TwoStatePreference
+getSummaryOn	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    public CharSequence getSummaryOn() {$/;"	m	class:TwoStatePreference
+getSwitchTextOff	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^	public CharSequence getSwitchTextOff() {$/;"	m	class:SwitchPreference
+getSwitchTextOn	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^	public CharSequence getSwitchTextOn() {$/;"	m	class:SwitchPreference
+getTargetCheckedState	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private boolean getTargetCheckedState() {$/;"	m	class:Switch	file:
+getTextOff	src/org/jraf/android/backport/switchwidget/Switch.java	/^    public CharSequence getTextOff() {$/;"	m	class:Switch
+getTextOn	src/org/jraf/android/backport/switchwidget/Switch.java	/^    public CharSequence getTextOn() {$/;"	m	class:Switch
+getThumbScrollRange	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private int getThumbScrollRange() {$/;"	m	class:Switch	file:
+hitThumb	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private boolean hitThumb(float x, float y) {$/;"	m	class:Switch	file:
+id	gen/org/jraf/android/backport/switchwidget/R.java	/^    public static final class id {$/;"	c	class:R
+isChecked	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    public boolean isChecked() {$/;"	m	class:TwoStatePreference
+layout	gen/org/jraf/android/backport/switchwidget/R.java	/^    public static final class layout {$/;"	c	class:R
+mBackgroundDrawable	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private final ColorDrawable mBackgroundDrawable;$/;"	f	class:Switch	file:
+mChecked	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    boolean mChecked;$/;"	f	class:TwoStatePreference
+mDisableDependentsState	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    private boolean mDisableDependentsState;$/;"	f	class:TwoStatePreference	file:
+mIconDrawable	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private final Drawable mIconDrawable;$/;"	f	class:Switch	file:
+mListener	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^	private final Listener mListener = new Listener();$/;"	f	class:SwitchPreference	file:
+mMinFlingVelocity	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private final int mMinFlingVelocity;$/;"	f	class:Switch	file:
+mOffLayout	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private Layout mOffLayout;$/;"	f	class:Switch	file:
+mOnLayout	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private Layout mOnLayout;$/;"	f	class:Switch	file:
+mSummaryOff	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    private CharSequence mSummaryOff;$/;"	f	class:TwoStatePreference	file:
+mSummaryOn	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    private CharSequence mSummaryOn;$/;"	f	class:TwoStatePreference	file:
+mSwitchBottom	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private int mSwitchBottom;$/;"	f	class:Switch	file:
+mSwitchHeight	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private int mSwitchHeight;$/;"	f	class:Switch	file:
+mSwitchLeft	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private int mSwitchLeft;$/;"	f	class:Switch	file:
+mSwitchMinWidth	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private final int mSwitchMinWidth;$/;"	f	class:Switch	file:
+mSwitchOff	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^	private CharSequence mSwitchOff;$/;"	f	class:SwitchPreference	file:
+mSwitchOn	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^	private CharSequence mSwitchOn;$/;"	f	class:SwitchPreference	file:
+mSwitchPadding	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private final int mSwitchPadding;$/;"	f	class:Switch	file:
+mSwitchRight	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private int mSwitchRight;$/;"	f	class:Switch	file:
+mSwitchTop	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private int mSwitchTop;$/;"	f	class:Switch	file:
+mSwitchWidth	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private int mSwitchWidth;$/;"	f	class:Switch	file:
+mTempRect	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private final Rect mTempRect = new Rect();$/;"	f	class:Switch	file:
+mTextColors	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private ColorStateList mTextColors;$/;"	f	class:Switch	file:
+mTextOff	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private CharSequence mTextOff;$/;"	f	class:Switch	file:
+mTextOn	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private CharSequence mTextOn;$/;"	f	class:Switch	file:
+mTextPaint	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private final TextPaint mTextPaint;$/;"	f	class:Switch	file:
+mThumbDrawable	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private final Drawable mThumbDrawable;$/;"	f	class:Switch	file:
+mThumbPosition	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private float mThumbPosition;$/;"	f	class:Switch	file:
+mThumbTextPadding	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private final int mThumbTextPadding;$/;"	f	class:Switch	file:
+mThumbWidth	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private int mThumbWidth; \/\/ Does not include padding$/;"	f	class:Switch	file:
+mTouchMode	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private int mTouchMode;$/;"	f	class:Switch	file:
+mTouchSlop	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private final int mTouchSlop;$/;"	f	class:Switch	file:
+mTouchX	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private float mTouchX;$/;"	f	class:Switch	file:
+mTouchY	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private float mTouchY;$/;"	f	class:Switch	file:
+mTrackDrawable	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private final Drawable mTrackDrawable;$/;"	f	class:Switch	file:
+mVelocityTracker	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private final VelocityTracker mVelocityTracker = VelocityTracker.obtain();$/;"	f	class:Switch	file:
+makeLayout	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private Layout makeLayout(CharSequence text) {$/;"	m	class:Switch	file:
+onBindView	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^	protected void onBindView(View view) {$/;"	m	class:SwitchPreference
+onCheckedChanged	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^		public void onCheckedChanged(CompoundButton buttonView,$/;"	m	class:SwitchPreference.Listener
+onClick	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    protected void onClick() {$/;"	m	class:TwoStatePreference
+onCreateDrawableState	src/org/jraf/android/backport/switchwidget/Switch.java	/^    protected int[] onCreateDrawableState(int extraSpace) {$/;"	m	class:Switch
+onDraw	src/org/jraf/android/backport/switchwidget/Switch.java	/^    protected void onDraw(Canvas canvas) {$/;"	m	class:Switch
+onGetDefaultValue	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    protected Object onGetDefaultValue(TypedArray a, int index) {$/;"	m	class:TwoStatePreference
+onLayout	src/org/jraf/android/backport/switchwidget/Switch.java	/^    protected void onLayout(boolean changed, int left, int top, int right, int bottom) {$/;"	m	class:Switch
+onMeasure	src/org/jraf/android/backport/switchwidget/Switch.java	/^    public void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {$/;"	m	class:Switch
+onRestoreInstanceState	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    protected void onRestoreInstanceState(Parcelable state) {$/;"	m	class:TwoStatePreference
+onSaveInstanceState	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    protected Parcelable onSaveInstanceState() {$/;"	m	class:TwoStatePreference
+onSetInitialValue	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {$/;"	m	class:TwoStatePreference
+onTouchEvent	src/org/jraf/android/backport/switchwidget/Switch.java	/^    public boolean onTouchEvent(MotionEvent ev) {$/;"	m	class:Switch
+org.jraf.android.backport.switchwidget	gen/org/jraf/android/backport/switchwidget/BuildConfig.java	/^package org.jraf.android.backport.switchwidget;$/;"	p
+org.jraf.android.backport.switchwidget	gen/org/jraf/android/backport/switchwidget/R.java	/^package org.jraf.android.backport.switchwidget;$/;"	p
+org.jraf.android.backport.switchwidget	src/org/jraf/android/backport/switchwidget/Switch.java	/^package org.jraf.android.backport.switchwidget;$/;"	p
+org.jraf.android.backport.switchwidget	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^package org.jraf.android.backport.switchwidget;$/;"	p
+org.jraf.android.backport.switchwidget	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^package org.jraf.android.backport.switchwidget;$/;"	p
+preference	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int preference=0x7f030000;$/;"	f	class:R.layout
+preference_icon_minWidth	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int preference_icon_minWidth=0x7f040002;$/;"	f	class:R.dimen
+preference_item_padding_inner	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int preference_item_padding_inner=0x7f040001;$/;"	f	class:R.dimen
+preference_item_padding_side	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int preference_item_padding_side=0x7f040000;$/;"	f	class:R.dimen
+preference_widget_switch	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int preference_widget_switch=0x7f030001;$/;"	f	class:R.layout
+preference_widget_width	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int preference_widget_width=0x7f040003;$/;"	f	class:R.dimen
+setChecked	src/org/jraf/android/backport/switchwidget/Switch.java	/^    public void setChecked(boolean checked) {$/;"	m	class:Switch
+setChecked	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    public void setChecked(boolean checked) {$/;"	m	class:TwoStatePreference
+setDisableDependentsState	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    public void setDisableDependentsState(boolean disableDependentsState) {$/;"	m	class:TwoStatePreference
+setSummaryOff	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    public void setSummaryOff(CharSequence summary) {$/;"	m	class:TwoStatePreference
+setSummaryOff	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    public void setSummaryOff(int summaryResId) {$/;"	m	class:TwoStatePreference
+setSummaryOn	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    public void setSummaryOn(CharSequence summary) {$/;"	m	class:TwoStatePreference
+setSummaryOn	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    public void setSummaryOn(int summaryResId) {$/;"	m	class:TwoStatePreference
+setSwitchTextAppearance	src/org/jraf/android/backport/switchwidget/Switch.java	/^    public void setSwitchTextAppearance(Context context, int resid) {$/;"	m	class:Switch
+setSwitchTextOff	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^	public void setSwitchTextOff(CharSequence offText) {$/;"	m	class:SwitchPreference
+setSwitchTextOff	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^	public void setSwitchTextOff(int resId) {$/;"	m	class:SwitchPreference
+setSwitchTextOn	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^	public void setSwitchTextOn(CharSequence onText) {$/;"	m	class:SwitchPreference
+setSwitchTextOn	src/org/jraf/android/backport/switchwidget/SwitchPreference.java	/^	public void setSwitchTextOn(int resId) {$/;"	m	class:SwitchPreference
+setSwitchTypeface	src/org/jraf/android/backport/switchwidget/Switch.java	/^    public void setSwitchTypeface(Typeface tf) {$/;"	m	class:Switch
+setSwitchTypeface	src/org/jraf/android/backport/switchwidget/Switch.java	/^    public void setSwitchTypeface(Typeface tf, int style) {$/;"	m	class:Switch
+setSwitchTypefaceByIndex	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private void setSwitchTypefaceByIndex(int typefaceIndex, int styleIndex) {$/;"	m	class:Switch	file:
+setTextOff	src/org/jraf/android/backport/switchwidget/Switch.java	/^    public void setTextOff(CharSequence textOff) {$/;"	m	class:Switch
+setTextOn	src/org/jraf/android/backport/switchwidget/Switch.java	/^    public void setTextOn(CharSequence textOn) {$/;"	m	class:Switch
+shouldDisableDependents	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    public boolean shouldDisableDependents() {$/;"	m	class:TwoStatePreference
+stopDrag	src/org/jraf/android/backport/switchwidget/Switch.java	/^    private void stopDrag(MotionEvent ev) {$/;"	m	class:Switch	file:
+string	gen/org/jraf/android/backport/switchwidget/R.java	/^    public static final class string {$/;"	c	class:R
+style	gen/org/jraf/android/backport/switchwidget/R.java	/^    public static final class style {$/;"	c	class:R
+styleable	gen/org/jraf/android/backport/switchwidget/R.java	/^    public static final class styleable {$/;"	c	class:R
+summaryOff	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int summaryOff=0x7f010001;$/;"	f	class:R.attr
+summaryOn	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int summaryOn=0x7f010000;$/;"	f	class:R.attr
+switchMinWidth	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switchMinWidth=0x7f01000b;$/;"	f	class:R.attr
+switchPadding	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switchPadding=0x7f01000c;$/;"	f	class:R.attr
+switchPreferenceStyle	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switchPreferenceStyle=0x7f01000e;$/;"	f	class:R.attr
+switchStyle	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switchStyle=0x7f01000d;$/;"	f	class:R.attr
+switchTextAppearance	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switchTextAppearance=0x7f01000a;$/;"	f	class:R.attr
+switchTextOff	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switchTextOff=0x7f010003;$/;"	f	class:R.attr
+switchTextOn	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switchTextOn=0x7f010002;$/;"	f	class:R.attr
+switchWidget	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switchWidget=0x7f070000;$/;"	f	class:R.id
+switch_bg_disabled_holo_dark	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_bg_disabled_holo_dark=0x7f020000;$/;"	f	class:R.drawable
+switch_bg_disabled_holo_light	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_bg_disabled_holo_light=0x7f020001;$/;"	f	class:R.drawable
+switch_bg_focused_holo_dark	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_bg_focused_holo_dark=0x7f020002;$/;"	f	class:R.drawable
+switch_bg_focused_holo_light	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_bg_focused_holo_light=0x7f020003;$/;"	f	class:R.drawable
+switch_bg_holo_dark	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_bg_holo_dark=0x7f020004;$/;"	f	class:R.drawable
+switch_bg_holo_light	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_bg_holo_light=0x7f020005;$/;"	f	class:R.drawable
+switch_inner_holo_dark	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_inner_holo_dark=0x7f020006;$/;"	f	class:R.drawable
+switch_inner_holo_light	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_inner_holo_light=0x7f020007;$/;"	f	class:R.drawable
+switch_off	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_off=0x7f050001;$/;"	f	class:R.string
+switch_on	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_on=0x7f050000;$/;"	f	class:R.string
+switch_thumb_activated_holo_dark	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_thumb_activated_holo_dark=0x7f020008;$/;"	f	class:R.drawable
+switch_thumb_activated_holo_light	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_thumb_activated_holo_light=0x7f020009;$/;"	f	class:R.drawable
+switch_thumb_disabled_holo_dark	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_thumb_disabled_holo_dark=0x7f02000a;$/;"	f	class:R.drawable
+switch_thumb_disabled_holo_light	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_thumb_disabled_holo_light=0x7f02000b;$/;"	f	class:R.drawable
+switch_thumb_holo_dark	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_thumb_holo_dark=0x7f02000c;$/;"	f	class:R.drawable
+switch_thumb_holo_light	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_thumb_holo_light=0x7f02000d;$/;"	f	class:R.drawable
+switch_thumb_pressed_holo_dark	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_thumb_pressed_holo_dark=0x7f02000e;$/;"	f	class:R.drawable
+switch_thumb_pressed_holo_light	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_thumb_pressed_holo_light=0x7f02000f;$/;"	f	class:R.drawable
+switch_track_holo_dark	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_track_holo_dark=0x7f020010;$/;"	f	class:R.drawable
+switch_track_holo_light	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int switch_track_holo_light=0x7f020011;$/;"	f	class:R.drawable
+syncSummaryView	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^    void syncSummaryView(View view) {$/;"	m	class:TwoStatePreference
+textOff	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int textOff=0x7f010008;$/;"	f	class:R.attr
+textOn	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int textOn=0x7f010007;$/;"	f	class:R.attr
+thumb	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int thumb=0x7f010005;$/;"	f	class:R.attr
+thumbTextPadding	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int thumbTextPadding=0x7f010009;$/;"	f	class:R.attr
+track	gen/org/jraf/android/backport/switchwidget/R.java	/^        public static int track=0x7f010006;$/;"	f	class:R.attr
+verifyDrawable	src/org/jraf/android/backport/switchwidget/Switch.java	/^    protected boolean verifyDrawable(Drawable who) {$/;"	m	class:Switch
+writeToParcel	src/org/jraf/android/backport/switchwidget/TwoStatePreference.java	/^        public void writeToParcel(Parcel dest, int flags) {$/;"	m	class:TwoStatePreference.SavedState

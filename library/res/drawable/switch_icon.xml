@@ -23,9 +23,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
 
-    <string name="switch_on">ON</string>
-    <string name="switch_off">OFF</string>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-</resources>
+    <item android:drawable="@drawable/x" android:state_enabled="false"/>
+    <item android:drawable="@drawable/v" android:state_pressed="true"/>
+    <item android:drawable="@drawable/v" android:state_checked="true"/>
+    <item android:drawable="@drawable/x"/>
+
+</selector>
