@@ -9,10 +9,12 @@ This port works on Android 2.1+.
 Screenshot
 ----------
 
-- Checked
+### Checked
+
 ![Checked](checked.png)
 
-- Unchecked
+### Unchecked
+
 ![Unhecked](unchecked.png)
 
 How to use
