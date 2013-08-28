@@ -6,6 +6,15 @@ that was introduced on Android 4.
 
 This port works on Android 2.1+.
 
+Screenshot
+----------
+
+- Checked
+![Checked][checked.png]
+
+- Unchecked
+![Unhecked][unchecked.png]
+
 How to use
 ----------
 
