@@ -71,6 +71,7 @@ public class Switch extends CompoundButton {
     private final ColorDrawable mBackgroundDrawable;
     private final Drawable mThumbDrawable;
     private final Drawable mIconDrawable;
+    private final Drawable mIconCheckedDrawable;
     private final Drawable mTrackDrawable;
     private final int mThumbTextPadding;
     private final int mSwitchMinWidth;
@@ -146,8 +147,10 @@ public class Switch extends CompoundButton {
 
         //mThumbDrawable = a.getDrawable(R.styleable.Switch_thumb);
         mThumbDrawable = res.getDrawable(R.drawable.v_bg);
-        mIconDrawable = res.getDrawable(R.drawable.switch_icon);
-        mTrackDrawable = res.getDrawable(R.drawable.track_bg);
+        mIconDrawable = res.getDrawable(R.drawable.x);
+        mIconCheckedDrawable = res.getDrawable(R.drawable.v);
+        //mTrackDrawable = res.getDrawable(R.drawable.track_bg);
+        mTrackDrawable = a.getDrawable(R.styleable.Switch_track);
 
         mBackgroundDrawable = new ColorDrawable();
         mBackgroundDrawable.setColor(res.getColor(R.color.background));
@@ -318,7 +321,7 @@ public class Switch extends CompoundButton {
             mOffLayout = makeLayout(mTextOff);
         }
 
-        //mTrackDrawable.getPadding(mTempRect);
+        mTrackDrawable.getPadding(mTempRect);
         final int maxTextWidth = Math.max(mOnLayout.getWidth(), mOffLayout.getWidth());
         final int switchWidth = Math.max(mSwitchMinWidth, maxTextWidth * 2 + mThumbTextPadding * 4 + mTempRect.left + mTempRect.right);
         final int switchHeight = mTrackDrawable.getIntrinsicHeight();
@@ -391,8 +394,7 @@ public class Switch extends CompoundButton {
      * @return true if (x, y) is within the target area of the switch thumb
      */
     private boolean hitThumb(float x, float y) {
-        //mThumbDrawable.getPadding(mTempRect);
-        //mIconDrawable.getPadding(mTempRect);
+        mThumbDrawable.getPadding(mTempRect);
         final int thumbTop = mSwitchTop - mTouchSlop;
         final int thumbLeft = mSwitchLeft + (int) (mThumbPosition + 0.5f) - mTouchSlop;
         final int thumbRight = thumbLeft + mThumbWidth + mTempRect.left + mTempRect.right + mTouchSlop;
@@ -568,31 +570,24 @@ public class Switch extends CompoundButton {
 
         canvas.save();
 
-        //mTrackDrawable.getPadding(mTempRect);
-        final int switchInnerLeft = switchLeft + mTempRect.left;
+        mTrackDrawable.getPadding(mTempRect);
+        final int switchInnerLeft = switchLeft;
         final int switchInnerTop = switchTop + mTempRect.top;
-        final int switchInnerRight = switchRight - mTempRect.right;
+        final int switchInnerRight = switchRight;
         final int switchInnerBottom = switchBottom - mTempRect.bottom;
-        System.out.println("++++++++++++++++++++mTempRect   " +  mTempRect   + "++++++++++++++++++++");
-        System.out.println("++++++++++++++++++++switchInnerLeft   " + switchInnerLeft    + "++++++++++++++++++++");
-        System.out.println("++++++++++++++++++++switchInnerTop    " + switchInnerTop     + "++++++++++++++++++++");
-        System.out.println("++++++++++++++++++++switchInnerRight  " + switchInnerRight   + "++++++++++++++++++++");
-        System.out.println("++++++++++++++++++++switchInnerBottom " + switchInnerBottom  + "++++++++++++++++++++");
         canvas.clipRect(switchInnerLeft, switchTop, switchInnerRight, switchBottom);
 
-        //mThumbDrawable.getPadding(mTempRect);
+        mThumbDrawable.getPadding(mTempRect);
         final int thumbPos   = (int) (mThumbPosition + 0.5f);
-        final int thumbLeft  = switchInnerLeft - mTempRect.left + thumbPos;
-        final int thumbRight = switchInnerLeft + thumbPos + mThumbWidth + mTempRect.right;
-        System.out.println("++++++++++++++++++++thumbPos  " + thumbPos   + "++++++++++++++++++++");
-        System.out.println("++++++++++++++++++++thumbLeft " + thumbLeft  + "++++++++++++++++++++");
-        System.out.println("++++++++++++++++++++thumbRight" + thumbRight + "++++++++++++++++++++");
+        final int thumbLeft = switchInnerLeft + thumbPos;
+        final int thumbRight = switchInnerLeft + thumbPos + mThumbWidth;
 
         mThumbDrawable.setBounds(thumbLeft, switchTop, thumbRight, switchBottom);
         mThumbDrawable.draw(canvas);
 
-        mIconDrawable.setBounds(thumbLeft, switchTop, thumbRight, switchBottom);
-        mIconDrawable.draw(canvas);
+        Drawable icon = getTargetCheckedState() ? mIconCheckedDrawable : mIconDrawable;
+        icon.setBounds(thumbLeft, switchTop, thumbRight, switchBottom);
+        icon.draw(canvas);
 
         // mTextColors should not be null, but just in case
         if (mTextColors != null) {
@@ -616,8 +611,8 @@ public class Switch extends CompoundButton {
         if (mTrackDrawable == null) {
             return 0;
         }
-        //mTrackDrawable.getPadding(mTempRect);
-        return mSwitchWidth - mThumbWidth - mTempRect.left - mTempRect.right;
+        mTrackDrawable.getPadding(mTempRect);
+        return mSwitchWidth - mThumbWidth;
     }
 
     @Override
@@ -638,7 +633,6 @@ public class Switch extends CompoundButton {
         // Set the state of the Drawable
         // Drawable may be null when checked state is set from XML, from super constructor
         if (mThumbDrawable != null) mThumbDrawable.setState(myDrawableState);
-        if (mIconDrawable != null) mIconDrawable.setState(myDrawableState);
         if (mTrackDrawable != null) mTrackDrawable.setState(myDrawableState);
 
         invalidate();
