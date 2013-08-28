@@ -10,10 +10,10 @@ Screenshot
 ----------
 
 - Checked
-![Checked][checked.png]
+![Checked](checked.png)
 
 - Unchecked
-![Unhecked][unchecked.png]
+![Unhecked](unchecked.png)
 
 How to use
 ----------
@@ -105,11 +105,6 @@ Then in your preference xml file:
 
 </PreferenceScreen>
 ```
-
-### Sample app
-
-A sample app is available in the [sample](sample) folder, and also on the Play Store:
-[![Get it on Google Play](http://www.android.com/images/brand/get_it_on_play_logo_small.png)](https://play.google.com/store/apps/details?id=org.jraf.android.backport.switchwidget.sample)
 
 Credits
 -------
